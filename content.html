@@ -9,24 +9,12 @@
     <style>
 
 
-
-.nav-bar {
-    background-color: darkgrey;
-    place-content: center;
-    float: right;
-}
-
-
 ul {
   list-style-type: none;
-  width: 100%;
-  background-color: bisque; 
-  /* margin-left: 500px; */
+  margin: 0;
   padding: 0;
   overflow: hidden;
-  /* text-align: right; */
-  place-items: right;
-
+  background-color: #333;
 }
 
 li {
@@ -34,10 +22,17 @@ li {
 }
 
 li a {
-  /* display:block; */
-  padding: 10px;
-  /* background-color: #dddddd; */
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
+
+li a:hover {
+  background-color: #111;
+}
+
 
        
 .dropdown {
@@ -113,15 +108,21 @@ li a {
     </style>
 </head>
 <body>
-    <div class="nav-bar">
-<ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#news">News</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#about">About</a></li>
-  </ul>
-    </div><br>
-    <div class="dropdown">
+   
+    <div class="nav-bar">  
+    <ul>
+        <li><a href="content.html"><h4>content </h4></a></li>
+        <li> <a href="Event.html"><h4>Events </h4> </a></li>
+        <li><a href="Service.html"><h4>Services </h4></a> </li>
+        <li> <a href="Tool.html"><h4>Tools </h4></a></li>
+        <li><a href="Contact.html"><h4>Contact</h4></a></li>
+      </ul>
+     </div>
+    
+    <br>
+    
+    <br>
+<!--     <div class="dropdown">
         <span>Topic</span>
         <div class="dropdown-content">  
         <a href="content.html"><h4>content </h4></a>
@@ -132,7 +133,7 @@ li a {
         
 
 
-    </div>
+    </div> -->
     </div>
 
 
